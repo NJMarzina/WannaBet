@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WannaBet.Tests", "..\WannaB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WannaBetClassLibrary", "..\WannaBetClassLibrary\WannaBetClassLibrary.csproj", "{A16C648D-0E04-4E30-9B2F-96B8C8A3D7B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "..\Utilities\Utilities.csproj", "{BFE4CA47-3787-4CC8-A0E4-897D7F6897D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A16C648D-0E04-4E30-9B2F-96B8C8A3D7B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A16C648D-0E04-4E30-9B2F-96B8C8A3D7B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A16C648D-0E04-4E30-9B2F-96B8C8A3D7B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFE4CA47-3787-4CC8-A0E4-897D7F6897D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFE4CA47-3787-4CC8-A0E4-897D7F6897D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFE4CA47-3787-4CC8-A0E4-897D7F6897D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFE4CA47-3787-4CC8-A0E4-897D7F6897D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

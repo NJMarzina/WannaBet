@@ -5,6 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
+using WannaBetClassLibrary;
+
 namespace WannaBet
 {
     public partial class Registration : System.Web.UI.Page
