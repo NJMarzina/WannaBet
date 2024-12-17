@@ -52,6 +52,11 @@ namespace WannaBet
                 // 2. Hash the password
                 // 3. Save the user to database
                 // For this example, we'll just show a success message
+
+                Encryptor encryptor = new Encryptor();
+                string result = encryptor.EncryptPassword("test");
+                string decrypt = encryptor.DecryptPassword(result);
+
                 lblMessage.Text = "Registration Successful!";
 
                 // Clear the form
