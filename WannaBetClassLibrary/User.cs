@@ -4,6 +4,7 @@ using System.Linq;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Schema;
 
 namespace WannaBetClassLibrary
 {
@@ -14,6 +15,9 @@ namespace WannaBetClassLibrary
         String password;
         String firstName;
         String lastName;
+        String email;
+        //add address shit later
+        int phone;
         double balance;
         int numBets;
         int numWins;
@@ -76,6 +80,30 @@ namespace WannaBetClassLibrary
             set
             {
                 this.lastName = value;
+            }
+        }
+
+        public String Email
+        {
+            get
+            {
+                return this.email;
+            }
+            set
+            {
+                this.email = value;
+            }
+        }
+
+        public int Phone
+        {
+            get
+            {
+                return this.phone;
+            }
+            set
+            {
+                this.phone = value;
             }
         }
 
