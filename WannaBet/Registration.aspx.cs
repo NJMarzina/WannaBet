@@ -20,7 +20,8 @@ namespace WannaBet
         {
             try
             {
-                // Validate input (you might want more robust validation)
+                // Validate input
+                //Create better validation later, just know this is where it goes.
                 if (string.IsNullOrWhiteSpace(txtUsername.Text) ||
                     string.IsNullOrWhiteSpace(txtPassword.Text) ||
                     string.IsNullOrWhiteSpace(txtFirstName.Text) ||
@@ -36,12 +37,12 @@ namespace WannaBet
                 User newUser = new User
                 {
                     Username = txtUsername.Text.Trim(),
-                    Password = txtPassword.Text, // Note: In a real application, you'd hash the password
+                    Password = txtPassword.Text,
                     FirstName = txtFirstName.Text.Trim(),
                     LastName = txtLastName.Text.Trim(),
                     Email = txtEmail.Text.Trim(),
                     Phone = int.Parse(txtPhoneNumber.Text.Trim()),
-                    Balance = 0, // Initial balance
+                    Balance = 0, //initial values start at 0 (duh)
                     NumBets = 0,
                     NumWins = 0,
                     NumLoses = 0
@@ -51,16 +52,14 @@ namespace WannaBet
                 // 1. Check if username already exists
                 // 2. Hash the password
                 // 3. Save the user to database
-                // For this example, we'll just show a success message
-
-                Encryptor encryptor = new Encryptor();
-                string result = encryptor.EncryptPassword("test");
-                string decrypt = encryptor.DecryptPassword(result);
+                // For this example, we're just show a success message
 
                 lblMessage.Text = "Registration Successful!";
 
                 // Clear the form
                 ClearForm();
+
+                Response.Redirect("Dashboard.aspx");
             }
             catch (Exception ex)
             {
