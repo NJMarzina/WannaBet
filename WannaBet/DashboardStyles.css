@@ -1,0 +1,88 @@
+﻿/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+form {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    background-color: #009688;
+    padding: 20px;
+    color: white;
+    border-radius: 8px 8px 0 0;
+}
+
+    .header h1 {
+        font-size: 36px;
+        font-weight: bold;
+    }
+
+.profile-link {
+    margin-top: 10px;
+}
+
+    .profile-link a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+        .profile-link a:hover {
+            text-decoration: underline;
+        }
+
+/* Dashboard Content */
+.dashboard-content {
+    margin-top: 30px;
+}
+
+.welcome-message {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.links li {
+    margin: 10px 0;
+}
+
+.links a {
+    color: #00796b;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+    .links a:hover {
+        text-decoration: underline;
+    }
+
+/* Additional Info */
+.other-info {
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+    text-align: center;
+}
