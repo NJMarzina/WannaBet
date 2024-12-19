@@ -126,5 +126,27 @@ namespace WannaBetClassLibrary
                 this.status = value;
             }
         }
+
+        //Calculator for wagerAmountSender
+        public double CalculateWagerAmountReciever(double amountSender, double multiplier)
+        {
+            return (amountSender * multiplier) - amountSender;
+        }
+
+        public double CalculateWagerAmountReciever(Wager wager)
+        {
+            return (wager.wagerAmountSender * wager.WagerMultiplier) - wager.wagerAmountSender;
+        }
+
+        //Calculator for wagerAmountTotal
+        public double CalculateWagerAmountTotal(double amountSender, double amountReciever)
+        {
+            return amountSender + amountReciever;
+        }
+
+        public double CalculateWagerAmountTotal(Wager wager)
+        {
+            return wager.wagerAmountSender + wager.wagerAmountReciever;
+        }
     }
 }
