@@ -70,6 +70,7 @@
     <Content Include="AllBets.aspx" />
     <Content Include="Dashboard.aspx" />
     <Content Include="DashboardStyles.css" />
+    <Content Include="Login.aspx" />
     <Content Include="MakeABet.aspx" />
     <Content Include="Profile.aspx" />
     <Content Include="Registration.aspx" />
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="Dashboard.aspx.designer.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="MakeABet.aspx.cs">
       <DependentUpon>MakeABet.aspx</DependentUpon>
