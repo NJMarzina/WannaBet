@@ -127,7 +127,7 @@ namespace WannaBetClassLibrary
             }
         }
 
-        //Calculator for wagerAmountSender
+        //Calculator for wagerAmountReciever
         public double CalculateWagerAmountReciever(double amountSender, double multiplier)
         {
             return (amountSender * multiplier) - amountSender;
