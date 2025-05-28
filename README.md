@@ -48,3 +48,15 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Created my Nathan Marzina
+
+- Intended to migrate logic from [SDWB](https://www.github.com/NJMarzina/SourDuckWannaBet): Previous WannaBet deployment - based on ASP.NET/C#; Supabase backend
+
+## TODO
+
+- Create incredibly responsive dashboard for nobody signed in
+- Create Firebase/AWS/whatever backend
+- Create pages for flow
+- Create cooresponding classes
+- MORE!!!
